@@ -1,0 +1,55 @@
+body {
+    background-image: url(http://gif-kartinki.ru/fony/fon_08.jpg);
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+
+    color: black;
+}
+
+table {
+    margin: 30px auto;
+
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33%;
+    height: 50px;
+
+    text-align: center;
+
+    border: 1px solid #333333;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.table-single {
+    width: 75%;
+}
+
+
+.table-parent {
+    width: 90%;
+}
+
+.table-child {
+    width: 80%;
+}
+
+.w-3 {
+    width: 60%;
+}
+
+.w-4 {
+    width: 28%;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+}

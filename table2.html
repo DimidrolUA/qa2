@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <table class="table-parent">
+            <caption>Родительская таблица</caption>
+            <tr>
+                <td colspan="2">1-2</td>
+                <td class="w-3">3<br>Ширина 3й ячейки 60%</td>
+            </tr>
+            <tr>
+                <td class="w-4">4<br>Ширина 4й ячейки 28%</td>
+                <td colspan="2" rowspan="2">
+                    <table class="table-child">
+                        <caption>Дочерняя таблица</caption>
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3">2-5-8<br>Все колонки шириной 33%</td>
+                            <td rowspan="2" class="h-200">3-6<br>Высота 200рх</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="h-200">4-7<br>Высота 200рх</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="w-4">7<br>Высота всех ячеек 50рх</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
